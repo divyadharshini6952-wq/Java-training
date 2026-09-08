@@ -1,0 +1,16 @@
+Salary:
+
+import java.util.scanner;
+public class salary{
+public static void main(string[] args){
+scanner sc = new scanner(system.in);
+System.out.print("Enter basic salary:");
+double salary = sc.nextDouble();
+double bonus = salary*0.10;
+double total = salary+bonus;
+System.out.println("Basic salary ="+salary);
+System.out.println("bonus="+bonus);
+System.out.println("Total salary="+total);
+sc.close();
+}
+}
