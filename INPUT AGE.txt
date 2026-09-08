@@ -1,0 +1,16 @@
+INPUT AGE:
+
+import java.utill.scanner;
+public class age{
+public static void main(string[] args){
+scanner sc = new scanner(system.in);
+System.out.print("Enter you age:");
+int age = sc.nextInt();
+System.out.println(age>=18);
+System.out.println(age<18);
+System.out.println(age==18);
+sc.close();
+}
+}
+
+
