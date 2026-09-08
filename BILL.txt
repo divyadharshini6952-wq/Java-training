@@ -1,0 +1,14 @@
+BILL:
+import java.util.scanner;
+public class Bill{
+public static void main(string[] args){
+scanner sc = new scanner(system.in);
+System.out.print("Enter product price:");
+double price = sc.nextDouble();
+System.out.print("Enter product quantity:");
+int quantity = sc.nextInt();
+double total = price*quantity;
+System.out.println("Total = "+total);
+sc.close();
+}
+}
