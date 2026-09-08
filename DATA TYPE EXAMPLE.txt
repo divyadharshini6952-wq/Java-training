@@ -1,0 +1,20 @@
+DATA TYPE EXAMPLE:
+ 
+public class StudentInfo {
+public static void main(string[] args){
+string name = "Divya";
+int age = 18;
+double mark = 91.4;
+char grade = "A";
+Boolean passed = "true";
+System.out.println(name);
+System.out.println(age);
+System.out.println(mark);
+System.out.println(grade);
+System.out.println(passed);
+}
+}
+
+
+
+
